@@ -1,0 +1,14 @@
+
+## Cómo Ejecutar el Script
+
+```bash
+# 1. Guardar el script
+sudo nano hardening_script.py
+
+# 2. Copiar todo el contenido del script y pegar
+
+# 3. Dar permisos de ejecución
+sudo chmod +x hardening_script.py
+
+# 4. Ejecutar como root
+sudo python3 hardening_script.py

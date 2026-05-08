@@ -1,0 +1,10 @@
+# Restaurar configuración SSH
+sudo cp /etc/ssh/sshd_config.backup_* /etc/ssh/sshd_config
+sudo systemctl restart ssh
+
+# Limpiar reglas iptables
+sudo iptables -P INPUT ACCEPT
+sudo iptables -F
+
+# Detener fail2ban
+sudo systemctl stop fail2ban

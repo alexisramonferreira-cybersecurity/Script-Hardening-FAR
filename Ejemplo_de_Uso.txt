@@ -1,0 +1,5 @@
+# Ejecución con log detallado
+sudo python3 hardening_script.py 2>&1 | tee hardening_output.log
+
+# Modo no-interactivo (para automatización)
+echo "yes" | sudo python3 hardening_script.py
