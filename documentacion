@@ -1,0 +1,18 @@
+✅ Resumen de lo que hace cada sección
+Líneas	Función	Qué hace
+1-25	Cabecera	Documentación del script
+27-46	Imports	Importa todas las librerías necesarias
+49-63	Configuración logs	Configura dónde y cómo se guardan los logs
+66-110	Clase y constructor	Inicializa el objeto y verifica root
+112-155	run_command()	Ejecuta comandos con soporte dry-run
+158-180	write_file()	Escribe archivos con soporte dry-run
+183-233	disable_unnecessary_services()	Deshabilita servicios innecesarios
+236-322	configure_iptables()	Configura el firewall
+325-407	secure_ssh()	Configura SSH seguro
+410-491	configure_auditd()	Configura auditoría
+494-548	run_lynis_audit()	Ejecuta análisis de seguridad
+551-618	additional_hardening()	Medidas adicionales
+621-680	generate_report()	Genera reporte final
+683-729	run_all()	Orquesta todas las fases
+732-783	main()	Procesa argumentos
+786-787	Entry point	Punto de entrada
